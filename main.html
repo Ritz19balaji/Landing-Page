@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Infobyte Internship</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: url('images/cyber-tech.jpg') no-repeat center center fixed;
+            background-size: cover;
+            padding: 50px;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            text-shadow: 2px 2px 10px rgba(0, 255, 255, 0.8);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            background: cyan;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: 0.3s;
+            box-shadow: 0px 0px 15px cyan;
+        }
+
+        .btn:hover {
+            background: white;
+            box-shadow: 0px 0px 25px white;
+        }
+
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .graphics {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .graphics img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Oasis Infobyte</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Oasis Infobyte</h2>
+        <p>Enhance your skills with our futuristic internship program.</p>
+        <a href="#internship" class="btn">Apply Now</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Oasis Infobyte provides industry-level training and hands-on experience in multiple domains.</p>
+        <div class="graphics">
+            <img src="images/about1.jpg" alt="Training">
+            <img src="images/about2.jpg" alt="Collaboration">
+        </div>
+    </section>
+
+    <section id="internship" class="internship">
+        <h2>Our Internship Program</h2>
+        <p>Join our internship program to gain practical experience in web development, cybersecurity, and more.</p>
+        <div class="graphics">
+            <img src="images/internship1.jpg" alt="Learning">
+            <img src="images/internship2.jpg" alt="Project Work">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@oasisinfobyte.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Oasis Infobyte. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
